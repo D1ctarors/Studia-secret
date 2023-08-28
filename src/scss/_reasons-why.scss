@@ -1,0 +1,37 @@
+.reasons-why {
+
+	&__list {}
+
+	&__item {
+		padding: 15px;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		// gap: 8px;
+	}
+
+
+}
+
+.reasons-why-item {
+	&__image {
+		margin-bottom: 5px;
+	}
+
+	&__title {
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	&__subtitle {
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}

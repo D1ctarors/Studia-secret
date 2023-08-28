@@ -1,0 +1,182 @@
+.portfolio {
+
+	&__slider-pagination {
+
+		bottom: 10px !important;
+		text-align: center;
+
+
+		span {
+			background-color: $c-white;
+			width: 8px;
+			height: 8px;
+			padding: 5px;
+		}
+	}
+}
+
+
+
+.grid-box {
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// height: 240px;
+	// border-radius: 8px;
+	overflow: hidden;
+
+
+	// box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	// cursor: pointer;
+	// flex-grow: 1;
+	// background: $c-gray;
+	p {
+		margin: 0;
+
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+
+		@media (max-width:1140px) {
+			font-size: 18px;
+			line-height: 150%;
+		}
+
+		@media (max-width:768px) {
+			font-size: 25px;
+			line-height: 150%;
+		}
+
+	}
+}
+
+
+
+.grid {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+	grid-auto-rows: 240px;
+	grid-auto-flow: dense;
+
+	@media (max-width:530px) {
+		grid-auto-rows: 300px;
+	}
+}
+
+.grid>div {
+	// display: flex;
+	// justify-content: center;
+	// align-items: center;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		background: $c-gold;
+		position: relative;
+		border-radius: 15px;
+	}
+}
+
+.grid .wide {
+	grid-column: span 2;
+}
+
+.grid .tall {
+	grid-row: span 2;
+}
+
+.grid .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+
+@media (max-width: 768px) {
+	.grid {
+		justify-content: center;
+		grid-template-columns: repeat(auto-fit, minmax(50%, 50%));
+	}
+
+	.grid .wide {
+		grid-column: span 1;
+	}
+
+	.grid .tall {
+		grid-row: span 1;
+	}
+
+	.grid .big {
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+}
+
+@media (max-width: 530px) {
+	.grid {
+		justify-content: center;
+		grid-template-columns: repeat(auto-fit, minmax(32%, 100%));
+	}
+
+	.grid .wide {
+		grid-column: span 1;
+	}
+
+	.grid .tall {
+		grid-row: span 1;
+	}
+
+	.grid .big {
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+}
+
+.juxtapose {
+	min-width: 100%;
+	height: auto;
+	border-radius: 15px;
+	overflow: hidden;
+
+	@media (max-width:768px) {
+		// width: 100% !important;
+		// height: 100% !important;
+	}
+
+}
+
+div.jx-handle {}
+
+div.jx-image img {
+	object-fit: cover !important;
+}
+
+.jx-arrow {
+	display: none;
+}
+
+.jx-control {
+	background-color: $c-gray !important;
+}
+
+.jx-controller {
+	width: 40px !important;
+	height: 40px !important;
+	/* цвет фона */
+	background-color: $c-gold !important;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+	border-radius: 50%;
+	position: absolute;
+	// 	/* высчитываем позицию сверху, чтобы поставить его посередине */
+	top: 0 !important;
+	left: 50% !important;
+	transform: translate(-50%, 0) !important;
+	margin-left: 0 !important;
+
+	@media (max-width:768px) {
+		width: 30px !important;
+		height: 30px !important;
+	}
+}

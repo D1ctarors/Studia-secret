@@ -1,0 +1,26 @@
+#p_prldr {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: $c-sec;
+	z-index: 10000000;
+}
+
+.contpre small {
+	font-size: 25px;
+}
+
+.contpre {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+body.light-theme {
+	#p_prldr {
+			background: $c-white;
+		}
+}

@@ -1,0 +1,18 @@
+.reviews {
+
+	p {
+
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+	}
+
+	&__yandex {
+		@media (max-width:768px) {
+			height: 650px !important;
+		}
+
+
+	}
+}
