@@ -1,6 +1,4 @@
 .greeting {
-	// position: relative !important;
-	// padding-top: 50px !important;
 	min-height: 100vh !important;
 	overflow: hidden;
 
@@ -18,13 +16,9 @@
 		/* Изменено значение */
 	}
 
-	@media (max-width:992px) {
-		// padding-top: 100px !important;
-	}
+	@media (max-width:992px) {}
 
-	@media (max-width:768px) {
-		// padding-top: 125px !important;
-	}
+	@media (max-width:768px) {}
 
 	h3 {
 
@@ -74,23 +68,14 @@
 		}
 	}
 
-
-
-	// ul {
-	// 	position: absolute;
-	// 	display: block;
-
 	li {
 		position: absolute;
 		z-index: -1;
 	}
 
-
-	// }
 }
 
 .social__link {
-	// margin-top: 26px;
 	display: flex;
 	align-items: center;
 
@@ -105,11 +90,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
 		border-radius: 5px;
-
-
-		img {}
 
 		&:hover {
 

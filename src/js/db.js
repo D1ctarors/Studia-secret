@@ -1,4 +1,5 @@
 
+// Вставка портфолио карточек
 function createPortfolioItem() {
 	const dataPortfolioCardItem = [
 		{
