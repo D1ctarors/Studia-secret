@@ -48,30 +48,6 @@
 			background: $c-gold;
 
 			z-index: 2;
-<<<<<<< HEAD
-=======
-
-			&::after {
-				content: url('../img/nan.png');
-				width: auto;
-				height: auto;
-				font-size: 48px;
-				font-weight: 800;
-				// width: 100%;
-				// height: 100%;
-				position: absolute;
-				transform: translate(-50%, -50%);
-				top: 50%;
-				left: 50%;
-				z-index: 0;
-
-				@media (max-width: 992px) {
-					font-size: 32px;
-				}
-
-
-			}
->>>>>>> 7a104569eeb69a116ec0cc760a7e85a113114232
 		}
 
 

@@ -672,30 +672,6 @@ input:focus:-ms-input-placeholder {
   position: relative;
   border-radius: 15px;
 }
-<<<<<<< HEAD
-=======
-.grid > div img::before {
-  content: url("../img/nan.png");
-  width: auto;
-  height: auto;
-  font-size: 32px;
-  font-weight: 800;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-}
-@media (max-width: 992px) {
-  .grid > div img::before {
-    font-size: 24px;
-  }
-}
->>>>>>> 7a104569eeb69a116ec0cc760a7e85a113114232
 
 .grid .wide {
   grid-column: span 2;
@@ -880,16 +856,10 @@ div.jx-image img {
   background: #E9D495;
   z-index: 2;
 }
-<<<<<<< HEAD
-=======
 .service-item__image::before {
-  content: url("../img/nan.png");
-  width: auto;
-  height: auto;
+  content: "Заполнение";
   font-size: 32px;
   font-weight: 800;
-  -o-object-fit: cover;
-     object-fit: cover;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -903,7 +873,6 @@ div.jx-image img {
     font-size: 24px;
   }
 }
->>>>>>> 7a104569eeb69a116ec0cc760a7e85a113114232
 @media (max-width: 768px) {
   .service-item__image {
     max-height: 250px;
@@ -1054,31 +1023,6 @@ div.jx-image img {
      object-fit: cover;
   background: #E9D495;
   z-index: 2;
-}
-<<<<<<< HEAD
-.contacts__image:nth-child(1), .contacts__image:nth-child(2), .contacts__image:nth-child(3) {
-  position: relative;
-  overflow: hidden;
-=======
-.contacts__image img::after {
-  content: url("../img/nan.png");
-  width: auto;
-  height: auto;
-  font-size: 48px;
-  font-weight: 800;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  z-index: 0;
-}
-@media (max-width: 992px) {
-  .contacts__image img::after {
-    font-size: 32px;
-  }
->>>>>>> 7a104569eeb69a116ec0cc760a7e85a113114232
 }
 .contacts__image:nth-child(1), .contacts__image:nth-child(2), .contacts__image:nth-child(3) {
   position: relative;
